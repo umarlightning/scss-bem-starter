@@ -1,54 +1,14 @@
 @font-face {
-  font-family: 'Futura PT Book';
-  src: url("/Fonts/FuturaPT-Book.woff2") format("woff2"), url("/Fonts/FuturaPT-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("/Fonts/FuturaPT-Bold.woff2") format("woff2"), url("/Fonts/FuturaPT-Bold.woff") format("woff");
+  font-family: 'Futura PT Cond';
+  src: url("/fonts/FuturaPTCond-Bold.woff2") format("woff2"), url("/fonts/FuturaPTCond-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-BoldObl.woff2") format("woff2"), url("FuturaPT-BoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Demi';
-  src: url("/Fonts/FuturaPT-Demi.woff2") format("woff2"), url("/Fonts/FuturaPT-Demi.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Book';
-  src: url("FuturaPTCond-BookObl.woff2") format("woff2"), url("FuturaPTCond-BookObl.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Extra Bold Ital';
-  src: url("FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("FuturaPTCond-ExtraBoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-Medium.woff2") format("woff2"), url("FuturaPTCond-Medium.woff") format("woff");
+  src: url("/fonts/FuturaPTCond-Medium.woff2") format("woff2"), url("/fonts/FuturaPTCond-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -56,120 +16,56 @@
 
 @font-face {
   font-family: 'Futura PT Cond Extra';
-  src: url("FuturaPTCond-ExtraBold.woff2") format("woff2"), url("FuturaPTCond-ExtraBold.woff") format("woff");
+  src: url("/fonts/FuturaPTCond-ExtraBold.woff2") format("woff2"), url("/fonts/FuturaPTCond-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-BoldObl.woff2") format("woff2"), url("FuturaPTCond-BoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-Bold.woff2") format("woff2"), url("FuturaPTCond-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Book';
-  src: url("FuturaPT-BookObl.woff2") format("woff2"), url("FuturaPT-BookObl.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-MediumObl.woff2") format("woff2"), url("FuturaPTCond-MediumObl.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT Cond Book';
-  src: url("FuturaPTCond-Book.woff2") format("woff2"), url("FuturaPTCond-Book.woff") format("woff");
+  src: url("/fonts/FuturaPTCond-Book.woff2") format("woff2"), url("/fonts/FuturaPTCond-Book.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Extra';
-  src: url("FuturaPT-ExtraBold.woff2") format("woff2"), url("FuturaPT-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-HeavyObl.woff2") format("woff2"), url("FuturaPT-HeavyObl.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Heavy.woff2") format("woff2"), url("FuturaPT-Heavy.woff") format("woff");
-  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT Demi';
-  src: url("FuturaPT-DemiObl.woff2") format("woff2"), url("FuturaPT-DemiObl.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
+  src: url("/fonts/FuturaPT-Demi.woff2") format("woff2"), url("/fonts/FuturaPT-Demi.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("/fonts/FuturaPT-Light.woff2") format("woff2"), url("/fonts/FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT Extra';
-  src: url("FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("FuturaPT-ExtraBoldObl.woff") format("woff");
+  src: url("/fonts/FuturaPT-ExtraBold.woff2") format("woff2"), url("/fonts/FuturaPT-ExtraBold.woff") format("woff");
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("FuturaPT-MediumObl.woff2") format("woff2"), url("FuturaPT-MediumObl.woff") format("woff");
+  src: url("/fonts/FuturaPT-Medium.woff2") format("woff2"), url("/fonts/FuturaPT-Medium.woff") format("woff");
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("FuturaPT-LightObl.woff2") format("woff2"), url("FuturaPT-LightObl.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
-  font-weight: 500;
+  src: url("/fonts/FuturaPT-Heavy.woff2") format("woff2"), url("/fonts/FuturaPT-Heavy.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -523,11 +419,12 @@ template {
 }
 
 body {
-  font-family: 'Futura PT','Arial' sans-serif;
+  font-family: 'Futura PT','Arial', sans-serif;
   margin: 0;
   padding: 0;
   background-image: url("./../images/body-bckg.png");
   background-repeat: no-repeat;
+  background-color: #E5E5E5;
   background-size: 100%;
 }
 
@@ -554,7 +451,7 @@ img {
   width: 100%;
 }
 
-.navbar__first-inner {
+.first-header-inner {
   background-color: #F9F8F8;
 }
 
@@ -565,13 +462,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .first-inner__link {
-  margin-left: 220px;
+  margin-right: 90px;
+  margin-left: 195px;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
@@ -582,7 +477,7 @@ img {
 .first-inner__link::before {
   display: inline-block;
   margin-right: 9px;
-  background-image: url(../../images/housesvg.svg);
+  background-image: url(../images/housesvg.svg);
   width: 14px;
   height: 13px;
   content: "";
@@ -596,12 +491,21 @@ img {
   color: #333333;
 }
 
+.tel-wrapper__inner:hover {
+  color: #FFBD54;
+}
+
+.tel-wrapper__inner:active {
+  opacity: 0.6;
+  color: #333333;
+}
+
 .tel-first::before {
   display: inline-block;
   margin-right: 9px;
   width: 14px;
   height: 13px;
-  background-image: url(../../images/phonesvg.svg);
+  background-image: url(../images/phonesvg.svg);
   background-repeat: no-repeat;
   content: "";
 }
@@ -615,6 +519,10 @@ img {
   height: 4px;
   color: #FFBD54;
   background-color: #FFBD54;
+}
+
+.tel-third {
+  margin-right: 59px;
 }
 
 .date-wrapper__inner {
@@ -632,8 +540,234 @@ img {
   margin-right: 9px;
   width: 14px;
   height: 13px;
-  background-image: url(../../images/datasvg.svg);
+  background-image: url(../images/datasvg.svg);
   background-repeat: no-repeat;
   content: "";
+}
+
+.navbar-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-inner__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-inner__item {
+  list-style-type: none;
+}
+
+.item__before {
+  margin-left: 75px;
+}
+
+.item__before::before {
+  display: inline-block;
+  margin-right: 15px;
+  background-image: url("../images/item-before.svg");
+  width: 22px;
+  height: 15px;
+  content: "";
+}
+
+.logo-link::before {
+  display: inline-block;
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  width: 178px;
+  height: 87px;
+  text-decoration: none;
+  content: "";
+}
+
+.navbar-inner__link {
+  margin-right: 55px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.navbar-inner__link:hover {
+  border-bottom: 4px solid #F4FFAD;
+}
+
+.navbar-inner__link:active {
+  color: #333333;
+  opacity: 0.6;
+  border-bottom: 4px solid #F4FFAD;
+}
+
+.navbar__question-link {
+  position: relative;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  color: #333333;
+}
+
+.navbar__question-link::before {
+  position: absolute;
+  top: -2px;
+  left: -31px;
+  background-image: url("../images/petsvg.svg");
+  width: 25px;
+  height: 25px;
+  content: "";
+}
+
+.hero {
+  background-image: url("../../images/cats-bckg.png"), url("../../images/bird-bckg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 470px) calc(50% - 100px), calc(50% + 610px) calc(50% + 250px);
+}
+
+.hero-inner {
+  padding: 153px 0 370px 0;
+  width: 608px;
+  margin-left: 660px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 29px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.hero__title .hero__span {
+  color: #78C0DE;
+}
+
+.hero__text {
+  font-weight: 400;
+  margin-bottom: 38px;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.hero__link {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 15px 48px 16px 47px;
+  line-height: 21px;
+  text-decoration: none;
+  background: #333333;
+  border-radius: 3px;
+  color: #FFFFFF;
+}
+
+.hero__link:hover {
+  color: #333333;
+  background-color: #FFBD54;
+  border-radius: 3px;
+}
+
+.hero__link:active {
+  color: #333333;
+  background-color: #FFBD54;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+.hero__quote {
+  position: relative;
+  text-align: center;
+}
+
+.quote__upper {
+  display: inline-block;
+  margin-bottom: 43px;
+  width: 140px;
+  border: 1px solid #DBDBDB;
+}
+
+.quote__upper::before {
+  position: absolute;
+  background-image: url("../../images/leftside.svg");
+  background-repeat: no-repeat;
+  top: 20px;
+  left: 140px;
+  width: 142px;
+  height: 128px;
+  content: "";
+}
+
+.quote__upper::after {
+  position: absolute;
+  background-image: url("../../images/rightside.svg");
+  background-repeat: no-repeat;
+  bottom: 10px;
+  right: 70px;
+  width: 142px;
+  height: 128px;
+  content: "";
+}
+
+.quote__bottom {
+  display: inline-block;
+  margin-top: 35px;
+  width: 140px;
+  border: 1px solid #DBDBDB;
+}
+
+.quote__inner {
+  width: 753px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin: 0 auto;
+  color: #949494;
+}
+
+.author {
+  display: block;
+  margin-top: 35px;
+}
+
+.services__title {
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 48px;
+  line-height: 54px;
+  color: #333333;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__item {
+  list-style-type: none;
+  width: 193px;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
 }
 /*# sourceMappingURL=main.css.map */
