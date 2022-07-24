@@ -525,6 +525,9 @@ template {
 body {
   margin: 0;
   padding: 0;
+  background-image: url("./../images/body-bckg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 img {
