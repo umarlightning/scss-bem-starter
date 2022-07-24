@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Futura PT Book';
-  src: url("FuturaPT-Book.woff2") format("woff2"), url("FuturaPT-Book.woff") format("woff");
+  src: url("/Fonts/FuturaPT-Book.woff2") format("woff2"), url("/Fonts/FuturaPT-Book.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: 'Futura PT';
-  src: url("FuturaPT-Bold.woff2") format("woff2"), url("FuturaPT-Bold.woff") format("woff");
+  src: url("/Fonts/FuturaPT-Bold.woff2") format("woff2"), url("/Fonts/FuturaPT-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: 'Futura PT Demi';
-  src: url("FuturaPT-Demi.woff2") format("woff2"), url("FuturaPT-Demi.woff") format("woff");
+  src: url("/Fonts/FuturaPT-Demi.woff2") format("woff2"), url("/Fonts/FuturaPT-Demi.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -523,7 +523,7 @@ template {
 }
 
 body {
-  font-family: "Futura PT" "Arial" sans-serif;
+  font-family: 'Futura PT','Arial' sans-serif;
   margin: 0;
   padding: 0;
   background-image: url("./../images/body-bckg.png");
@@ -554,6 +554,10 @@ img {
   width: 100%;
 }
 
+.navbar__first-inner {
+  background-color: #F9F8F8;
+}
+
 .first-inner__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,15 +568,24 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #F9F8F8;
 }
 
 .first-inner__link {
+  margin-left: 220px;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
   color: #333333;
   text-decoration: none;
+}
+
+.first-inner__link::before {
+  display: inline-block;
+  margin-right: 9px;
+  background-image: url(../../images/housesvg.svg);
+  width: 14px;
+  height: 13px;
+  content: "";
 }
 
 .tel-wrapper__inner {
@@ -583,9 +596,44 @@ img {
   color: #333333;
 }
 
+.tel-first::before {
+  display: inline-block;
+  margin-right: 9px;
+  width: 14px;
+  height: 13px;
+  background-image: url(../../images/phonesvg.svg);
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.tel-circle {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 9px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  color: #FFBD54;
+  background-color: #FFBD54;
+}
+
 .date-wrapper__inner {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+.data__active {
+  margin-right: 17px;
+}
+
+.data__active::before {
+  display: inline-block;
+  margin-right: 9px;
+  width: 14px;
+  height: 13px;
+  background-image: url(../../images/datasvg.svg);
+  background-repeat: no-repeat;
+  content: "";
 }
 /*# sourceMappingURL=main.css.map */
